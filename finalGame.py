@@ -6,8 +6,9 @@ from GirlAI import *
 from proximityGame import *
 import random
 
-screen = display.set_mode((800,800))
+# game uses pygame and graphics to show a sequence of minigames
 
+screen = display.set_mode((800,800))
 font.init()
 
 # --- Loading Assets ----------------

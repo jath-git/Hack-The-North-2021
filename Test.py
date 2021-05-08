@@ -6,7 +6,6 @@ import sys
 screen = display.set_mode((950, 800))
 font.init()
 
-
 hand = image.load("Assets/hand.png")
 handX, handY = 100, 500
 hand = pygame.transform.scale(hand, (800, 200))
